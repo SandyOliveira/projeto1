@@ -2,8 +2,8 @@
   z-index: 1;
   position: absolute;
   background: linear-gradient(#6062eb 0%, #5d2175 100%);
-  width: 60%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   text-align: center;
   transition: 1s;
   -webkit-transform-origin: 0;
@@ -40,8 +40,8 @@
   z-index: 0;
   position: absolute;
   background-color: rgb(233, 176, 221);
-  width: 60%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 #inside-title {
