@@ -1,0 +1,72 @@
+#outside {
+  z-index: 1;
+  position: absolute;
+  background: linear-gradient(#6062eb 0%, #5d2175 100%);
+  width: 60%;
+  height: 80%;
+  text-align: center;
+  transition: 1s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  -o-transform-origin: 0;
+  -moz-transform-origin: 0;
+  transform-origin: 0;
+}
+.open-card {
+  -webkit-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+}
+#outside-title {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+}
+#outside-pic {
+  width: 150px;
+  height: 150px;
+}
+#outside-help {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+  padding: 20px;
+}
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-color: rgb(233, 176, 221);
+  width: 60%;
+  height: 60%;
+  text-align: center;
+}
+#inside-title {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+}
+#inside-pic {
+  width: 150px;
+  height: 150px;
+}
+#message {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+}
+#message1 {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+}
+button {
+  background: green;
+  border-radius:20px;
+}
